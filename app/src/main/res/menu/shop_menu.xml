@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_insert"
+        android:id="@+id/insert_data"
+        android:title="Insert Data"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/insert_dummy"
+        android:title="Insert Dummy Data"
+        app:showAsAction="never"
+        />
+</menu>
